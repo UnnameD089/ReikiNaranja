@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de etiqueta nav</title>
+  <link rel="stylesheet" href="estyle.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head> 
+<body>
+  <header>
+  
+    <div class="reiki">
+      <h1>Sanacion Avanzada</h1>
+    </div>
+    
+  </header>
+
+  <div class="container-nav">
+    <nav class="navbar" role="navigation">
+      <a href="index.html" class="brand">Reiki</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contacto.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="button-menu-toggle">Menu</button>
+  </div>
+    <h1>Reiki</h1>
+    <h2>Introduccion</h2> 
+    <p>
+      <button onClick="showAlert()" aria-label="Dispara una alerta de saludo">¡Haz
+        clic en mí!</button>
+     <body>
+        
+   
+        <form action="" class="formulario">
+            <h1 class="formulario__Titulo">Comunicate con Nosotros</h1>
+            <input type="text" class="formulario__input">
+            <label for="" class="formulario__label">Nombres</label>
+            <input type="text" class="formulario__input">
+            <label for="" class="formulario__label">Correo</label>
+            <input type="text" class="formulario__input">
+            <label for="" class="formulario__label">Telefono</label>
+            <input type="text" class="formulario__input">
+            <label for="" class="formulario__label">Mensaje</label>
+            <input type="submit" class="formulario__submit">
+        </form>
+    </body>
+        <script src="script.js"></script>
+        <footer>
+          <div class="footer">
+          <!--- musica -->
+          <audio controls autoplay id="music">
+
+            <source src="/Nueva/imgmusic/reiki music.mp3" type="audio/mpeg">
+            tu navegador no es compatible con el audio de HTML5
+            
+            </audio> 
+           
+            <script>
+            
+            var myMusic= document.getElementById("music");
+            
+            function play() {
+            
+            myMusic.play();
+            
+            }
+            
+            function pause() {
+            
+            myMusic.pause();
+            
+            }
+            
+            </script>
+          <button onclick="mostrar()"> Mostrar</button>
+          <script type="text/javascript">
+              function mostrar(){
+                  swal("Bien ahi!", "llegaste al pie de pag!", "success");
+              }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de etiqueta nav</title>
+  <link rel="stylesheet" href="estyle.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head> 
+<body>
+  <header>
+  
+    <div class="reiki">
+      <h1>Sanacion Avanzada</h1>
+    </div>
+    
+  </header>
+
+  <div class="container-nav">
+    <nav class="navbar" role="navigation">
+      <a href="index.html" class="brand">Reiki</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contacto.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="button-menu-toggle">Menu</button>
+  </div>
+  <div class="medio">
+    <h1>Reiki</h1>
+    <h2>Introduccion</h2> 
+  </div>
+    <p>
+      <button onClick="showAlert()" aria-label="Dispara una alerta de saludo">¡Haz
+        clic en mí!</button>
+        <div class="containerp">
+          El Reiki es una práctica espiritual con las dimensiones basadas en la materia y espíritu, caracterizado por la imposición de manos con el fin de restablecer el equilibrio del cuerpo. Este es uno de los métodos curativos más antiguos de que la humanidad tiene conocimiento. Se originó en el Tíbet hace dieciocho siglos y fue redescubierto en el siglo XIX por un monje japonés llamado Mikao Usui. La tradición del reiki se remonta a escritos de 2.500 años en sánscrito, la lengua antigua de la India1.
+
+El Reiki es una terapia curativa natural segura, holística, pues trata al ser humano como un todo, fácil de usar y puede tratar muchas enfermedades agudas y crónicas, tales como: sinusitis, rinitis, asma, cistitis, fatiga crónica, artritis, ciática, insomnio, depresión, promover el bienestar espiritual, mental y emocional. Es conveniente para todas las personas, sin restricciones, es un excelente tónico, si usted está en buena condición física, el reiki le ayudará a seguir así.
+
+Esta técnica japonesa llamada reiki, se utiliza para reducir el estrés y sirve para la relajación que también promueve la curación. Se lleva a cabo por un profesional capacitado mediante la imposición de las manos en el individuo. Se basa en la idea de que la energía fluye a través de nosotros y puede utilizarse para estimular el proceso de curación. El uso de reiki como terapia complementaria está creciendo rápidamente, siendo utilizado en muchos hospitales en los Estados Unidos y Europa para ayudar a aliviar el dolor y aumentar las tasas de recuperación4.
+
+Aunque todos tenemos la habilidad innata para imponer las manos, en el sistema reiki el desbloqueo de los chakras ("rueda de luz". Son puntos de energía de diferentes vibraciones, representando diferentes aspectos del cuerpo, del alma y del espíritu. Simbolizan la ley de la naturaleza, estando en constante movimiento. Se localizan a lo largo de la columna vertebral del cuerpo humano; su función es la de recibir y transmitir energía a las áreas afectadas del cuerpo físico, trayendo el equilibrio) ocurre con el ritual de iniciación, momento en que los canales de energía se abren, permitiendo empezar a sintonizar con la Energía Universal y así convertirse en un agente de cura y puede actuar como terapeuta reiki4.
+
+Durante una sesión de reiki, la enfermera-terapeuta representa un canal y conducirá la fuerza, la energía y la luz que existe en reiki. Para el reikiano lo importante es compartir todos los beneficios de esta ciencia de bienestar y contribuir a difundir el buen fluido. Reiki le da al paciente una cantidad adecuada de energía necesaria para el equilibrio de la mente, cuerpo y emociones5.
+
+Esta terapia complementaria mantiene sus raíces en las tradiciones orientales, buscando el equilibrio entre cuerpo y mente, sanar lo físico y lo mental, acercándose a concepciones religiosas y místicas orientales. Se centrará en las chacras, que son centros energéticos en el ser humano. La palabra significa "rueda". Estos centros recogen energía sutil, transformándola y suministrándola al cuerpo. Cada uno está conectado a determinado órgano o región del cuerpo influido en su función. Las hormonas producidas por las glándulas fluyen directamente al torrente sanguíneo, causando energía vital al cuerpo. El sistema endocrino proporciona energía a los chacras y al mismo tiempo devuelve las energías sutiles al cuerpo. El método funciona a través de la interrelación entre los chacras y las glándulas endocrinas y por lo tanto implica a lo físico, mental y planes de energía en el proceso de curación
+        </p>
+        </div>
+        <div class="imgvideo">
+          
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/aoD2CUozVvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <img src="/Nueva/imgmusic/beneficios.jpg" alt="jpg">
+            
+        </div>
+        <script src="script.js"></script>
+        <footer>
+          <div class="footer">
+
+          <!--- musica -->
+          <audio controls autoplay id="music">
+
+            <source src="/Nueva/imgmusic/reiki music.mp3" type="audio/mpeg">
+            tu navegador no es compatible con el audio de HTML5
+            
+            </audio> 
+           
+            <script>
+            
+            var myMusic= document.getElementById("music");
+            
+            function play() {
+            
+            myMusic.play();
+            
+            }
+            
+            function pause() {
+            
+            myMusic.pause();
+            
+            }
+            
+            </script>
+          <button onclick="mostrar()"> Mostrar</button>
+          <script type="text/javascript">
+              function mostrar(){
+                  swal("Bien ahi!", "llegaste al pie de pag!", "success");
+                
+              }</script>
